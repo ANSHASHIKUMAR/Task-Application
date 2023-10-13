@@ -13,8 +13,8 @@
     <div class=" container d-flex mt-4 justify-content-between flex-wrap">
       <div class="col-12 col-md-5">
         <div class="btn-group btn-group-toggle">
-        <button @click="setFilter('finished')" class="btn btn-success rounded-2">Completed</button>
-        <button @click="setFilter('in-progress')" class="btn btn-warning rounded-2 mx-1">In-completed</button>
+        <button @click="setFilter('completed')" class="btn btn-success rounded-2">Completed</button>
+        <button @click="setFilter('in-completed')" class="btn btn-warning rounded-2 mx-1">In-completed</button>
         <button @click="setFilter('all')" class="btn btn-info rounded-2 mx-1">All tasks</button>
         </div>
       </div>
